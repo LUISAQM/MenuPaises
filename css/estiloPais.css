@@ -1,0 +1,156 @@
+div.contenedor{ 
+    width: 100%;
+    border: 2px solid rgb(31, 223, 223);
+}
+
+header {
+    padding: 1px;
+    color: white;
+    background-color: rgb(48, 201, 193);
+    clear: left;
+    text-align: center;
+} 
+
+footer {
+    padding: 15px;
+    color: white;
+    background-color: rgb(48, 201, 193);;
+    clear: left;
+    text-align: center;
+}
+
+ul {
+  list-style-type: none;/*desactiva viñetas*/
+  margin: 0;
+  padding: 0;
+  border: 2px solid rgba(122, 255, 255, 0.69);
+  overflow: hidden; /*Especifica qué sucede si el contenido
+  del cuadro de un elemento se desborda */
+  background-color: #333;
+}
+
+li {
+  float: left;
+  
+}
+
+li a {
+  
+  display: block;
+  color: white;
+  font-family:fantasy;
+  font-style: bold;
+  font-size: 18px;
+  letter-spacing: 2px;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+}
+
+li a:hover { /*Cuando pasa el mouse sobre el elemento*/
+  
+  background-color: rgba(122, 255, 255, 0.69);
+  color:#333;
+}
+
+li a:active { /*Cuando da click en el mouse */
+  background-color: #fd9268fa;
+  font-size: 120%;
+}
+li:last-child.Regresar{
+  float: right;
+  background-color: rgba(122, 255, 255, 0.69);
+  color:white;
+  }
+
+a.Bienvenida{
+color:rgba(122, 255, 255, 0.69);
+}
+
+body.Bienvenida{
+  background-image: url("../img/fondo.jpg"); 
+}
+
+header.Bienvenida{
+  padding: 1em;
+  color: #333;
+  background-color: rgba(122, 255, 255, 0.69);
+  clear: left;
+  text-align: center;
+} 
+
+article {
+    margin-left: 0px;
+    border-left: 1px solid rgb(247, 162, 162);
+    padding: .8em;
+    overflow: hidden;
+    background-repeat : no-repeat;
+    background-color: #fd9268fa;
+    background-repeat:repeat-y; /*no-repeat;*/
+    /*background-size:300px 180px;*/
+}
+p{
+  margin-left: 340px;
+  font-family:sans-serif;
+  font-size: 16px;;
+}
+p.tokyo{
+  margin-left: 240px;
+  margin-right: 140px;
+  font-family:sans-serif;
+  font-size: 16px;;
+}
+p.londres{
+  margin-left: 380px;
+  font-family:sans-serif;
+  font-size: 16px;;
+}
+
+h1{
+  text-align:center;
+  font-size: 150%;
+}
+
+#mexico{
+  color:green;
+}
+
+#londres{
+  color:red;
+}
+
+#paris{
+  color:blue;
+}
+
+#tokyo{
+  color:FireBrick;
+}
+
+#madrid{
+  color:yellow;
+}
+#pais{
+  color:yellow;
+}
+
+.banderaLon{
+  background-image: url("../img/londres.jpg");
+  background-repeat: no-repeat;  
+}
+.banderaPar{
+  background-image: url("../img/paris.jpg");
+  background-repeat: no-repeat;
+}
+.banderaTok{
+  background-image: url("../img/tokyo.jpg");
+  background-repeat: no-repeat;
+}
+.banderaMad{
+  background-image: url("../img/madrid.jpg");
+  background-repeat: no-repeat;
+}
+.banderaMex{
+  background-image: url("../img/mexico.jpg");
+  background-repeat: no-repeat;
+}
